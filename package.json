@@ -1,0 +1,26 @@
+{
+  "name": "lsc",
+  "displayName": "lightscript-syntax",
+  "description": "Syntax highlighting for LightScript.",
+  "version": "0.0.1",
+  "publisher": "lightscript",
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "lightscript",
+      "aliases": ["LightScript", "lightscript"],
+      "extensions": [".lsc",".lsx",".lsc.js",".lsc.jsx"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "lightscript",
+      "scopeName": "source.js",
+      "path": "./syntaxes/js.tmLanguage"
+    }]
+  }
+}
