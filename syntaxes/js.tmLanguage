@@ -3240,7 +3240,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(?&lt;!\.)\b(?&gt;delete|instanceof|in|new|of|typeof|void|with|from|thru|til)\b</string>
+					<string>(?&lt;!\.)\b(?&gt;delete|instanceof|in|new|of|typeof|void|with|from|idx|elem|key|val)\b</string>
 					<key>name</key>
 					<string>keyword.operator.js</string>
 				</dict>
@@ -3252,7 +3252,7 @@
   \|\|     | # logical-or      left-to-right   both
   or(?=\s) | # logical-or      left-to-right   both
   and(?=\s)| # logical-and     left-to-right   both
-  not(?=\s)    # logical-not     left-to-right   both</string>
+  not(?=\s)  # logical-not     left-to-right   both</string>
 					<key>name</key>
 					<string>keyword.operator.logical.js</string>
 				</dict>
