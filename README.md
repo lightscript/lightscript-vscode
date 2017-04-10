@@ -1,12 +1,8 @@
 # lightscript-vscode
 
-> Syntax highlighting in Visual Studio Code for the LightScript language.
+Syntax highlighting in Visual Studio Code for [LightScript](http://lightscript.org).
 
-Support is probably incomplete, but contributions to improve it are always welcome!
+[Available in the VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=lightscript.lsc).
 
-## related
-
-- [LightScript homepage](http://www.lightscript.org)
-- [lightscript-sublime](https://github.com/lightscript/lightscript-sublime)
-- [lightscript-atom](https://github.com/lightscript/lightscript-atom)
-
+Uses the syntax definitions from [lightscript-sublime](https://github.com/lightscript/lightscript-sublime)
+(as does [lightscript-atom](https://github.com/lightscript/lightscript-atom)).

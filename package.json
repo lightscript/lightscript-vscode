@@ -2,7 +2,7 @@
     "name": "lsc",
     "displayName": "lightscript-syntax",
     "description": "Syntax highlighting for LightScript.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "lightscript",
     "repository": "https://github.com/lightscript/lightscript-vscode",
     "engines": {
