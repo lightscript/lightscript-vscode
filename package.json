@@ -31,8 +31,8 @@
         "grammars": [
             {
                 "language": "lightscript",
-                "scopeName": "source.js",
-                "path": "./syntaxes/js.tmLanguage"
+                "scopeName": "source.lsc",
+                "path": "./syntaxes/lsc.tmLanguage"
             }
         ]
     }
